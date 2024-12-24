@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #aaa;
+}
+
+.image-container img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.custom-button {
+    background-color: #ff0080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #ff66a3;
+}
+
+/* Estilos para centrar y ajustar la imagen */
+.imagen-centrada {
+    width: 400px; /* Ancho fijo */
+    height: 250px; /* Alto fijo */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    display: block; /* Permite usar márgenes automáticos */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
